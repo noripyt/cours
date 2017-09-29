@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="250">
+  <text x="150" y="20" text-anchor="middle" alignment-baseline="middle" style="font-weight: bold; font-size: 18px;">Compilés</text>
+  <text x="500" y="20" text-anchor="middle" alignment-baseline="middle" style="font-weight: bold; font-size: 18px;">Interprétés</text>
+  <text x="150" y="75">Assembleur</text>
+  <text x="100" y="125">FORTRAN</text>
+  <text x="80" y="195">C</text>
+  <text x="450" y="75">Python</text>
+  <text x="500" y="145">Javascript</text>
+  <text x="475" y="185">PHP</text>
+  <text x="515" y="210">Java</text>
+  <line x1="350" y1="0" x2="350" y2="250" style="stroke: black;" />
+  <circle cx="350" cy="125" r="75" style="fill: salmon;" />
+  <text x="350" y="125" text-anchor="middle" alignment-baseline="middle" style="fill: white; font-weight: bold;">JIT compilers</text>
+</svg>

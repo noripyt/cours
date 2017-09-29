@@ -1,0 +1,14 @@
+digraph G {
+  Début, Fin[shape="rect"];
+  "Liste L en entrée"[shape="tab"];
+  Début -> "Liste L en entrée" -> "Nouvelle variable 'minimum' à l’infini" -> "Arrivé à la fin de L ?";
+  "Arrivé à la fin de L ?" -> "Prendre 'i', l’élément suivant de L"[label="non"];
+  "'i' < 'minimum' ?"[shape="diamond"];
+  "Prendre 'i', l’élément suivant de L" -> "'i' < 'minimum' ?";
+  "'i' < 'minimum' ?" -> "Mettre 'i' dans 'minimum'"[label="oui"];
+  "Mettre 'i' dans 'minimum'" -> "Arrivé à la fin de L ?"[label="non"];
+  "'i' < 'minimum' ?" -> "Arrivé à la fin de L ?"[label="non"];
+  "Arrivé à la fin de L ?" -> "Renvoyer 'minimum'"[label="oui"];
+  "Renvoyer 'minimum'"[shape="tab"];
+  "Renvoyer 'minimum'" -> Fin;
+}

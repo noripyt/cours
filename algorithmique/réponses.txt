@@ -1,0 +1,102 @@
+Exercice 1
+
+pi = 3.14
+ou
+π = 3.14
+
+
+Exercice 2
+
+25
+
+
+Exercice 3
+
+'é' != 'e'
+
+(donc True)
+
+
+Exercice 4
+
+x = 333 / 3
+x = (x - 11) / 10
+
+10
+
+
+Exercice 5
+
+[4]
+2
+IndexError
+
+
+Exercice 6
+
+l[1][2]
+
+
+Exercice 7
+
+2
+
+
+Exercice 8
+
+def pgcd(a, b):
+    diviseur = b if b < a else a
+    while b % diviseur > 0 or a % diviseur > 0:
+        diviseur -= 1
+    return diviseur
+
+
+Exercice 9
+
+14
+
+
+Exercice 10
+
+fonction
+procédure
+procédure
+
+
+Exercice 11
+
+1
+2
+13
+
+
+Exercice 12
+
+def fact(n):
+    if n < 2:
+        return 1
+    return n * fact(n - 1)
+
+def fact(n):
+    total = n
+    for i in range(1, n):
+        total *= i
+    return total
+
+
+Exercice 13
+
+O(1)
+O(m)
+O(n²)
+
+
+Exercice 14
+
+def f(n):
+    total = 0
+    for i in range(n):
+        total += i
+    for i in range(n):
+        total += i
+    return total

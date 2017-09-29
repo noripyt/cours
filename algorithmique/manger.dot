@@ -1,0 +1,8 @@
+digraph G {
+  Début, Fin[shape="rect"];
+  Début -> "Lever le bras" -> "Ouvrir la bouche" -> "Fermer la bouche";
+  "Fermer la bouche" -> "Bouche pleine ?";
+  "Bouche pleine ?"[shape="diamond"];
+  "Bouche pleine ?" -> "Ouvrir la bouche"[label="oui"];
+  "Bouche pleine ?" -> Fin[label="non"];
+}
