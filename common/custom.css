@@ -2,6 +2,16 @@
   font-family: inherit;
 }
 
+.reveal pre {
+  padding: 0;
+}
+
+.reveal pre code {
+  margin: 0;
+  padding: 0.4em;
+  border: none;
+}
+
 .rendered_html h1 {
   margin: 25px 0;
 }
