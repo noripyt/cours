@@ -2,6 +2,11 @@
   font-family: inherit;
 }
 
+.reveal sup {
+  top: 0;
+  font-size: 70%;
+}
+
 .reveal pre {
   padding: 0;
 }
