@@ -2,6 +2,10 @@
   font-family: inherit;
 }
 
+.reveal table {
+  font-size: 80%;
+}
+
 .reveal sup {
   top: 0;
   font-size: 70%;
@@ -47,6 +51,7 @@
   background: #f7f7f7;
   margin-left: 2px;
   margin-right: 2px;
+  font-size: 80%;
 }
 
 div.input_prompt {
