@@ -11,3 +11,7 @@ mv "Bases de données.slides.html" index.html
 cd ../C
 jupyter nbconvert C.ipynb --to slides
 mv C.slides.html index.html
+
+cd ../python
+jupyter nbconvert Python.ipynb --to slides
+mv Python.slides.html index.html

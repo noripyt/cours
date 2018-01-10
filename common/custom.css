@@ -45,13 +45,25 @@
   margin-top: 0;
 }
 
-.rendered_html code {
+.rendered_html .highlight, .rendered_html code {
   border: 1px solid #cfcfcf;
   border-radius: 2px;
   background: #f7f7f7;
+  font-size: 80%;
+}
+
+.rendered_html code {
   margin-left: 2px;
   margin-right: 2px;
-  font-size: 80%;
+}
+
+.rendered_html pre {
+  background: none;
+}
+
+.reveal .highlight {
+  margin: 10px 0;
+  padding: 5px;
 }
 
 div.input_prompt {
@@ -61,6 +73,23 @@ div.input_prompt {
 div.input_area {
   user-select: none;
   cursor: default;
+}
+
+div.output {
+  margin: 0.4em
+}
+
+div.prompt, div.output_subarea {
+  padding: 0;
+}
+
+div.output_area {
+  padding: 0;
+}
+
+div.output_prompt {
+  margin: 0;
+  visibility: hidden;
 }
 
 body::before {
