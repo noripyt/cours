@@ -77,7 +77,6 @@ class WordCounter:
         if self.size == 0:
             yield ' '.join(anagram_words)
             return
-        remaining_length = self.size
         words = list(self.narrow_words(words))
         for word in words:
             try:
