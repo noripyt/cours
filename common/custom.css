@@ -99,7 +99,8 @@ body::before {
   left: 20px;
   background-image: url('logo-horizontal.png');
   background-repeat: no-repeat;
-  width: 332px;
+  background-size: contain;
+  width: 347px;
   height: 73px;
 }
 

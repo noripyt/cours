@@ -15,3 +15,7 @@ mv C.slides.html index.html
 cd ../python
 jupyter nbconvert Python.ipynb --to slides
 mv Python.slides.html index.html
+
+cd ../postgresql
+jupyter nbconvert PostgreSQL.ipynb --to slides
+mv PostgreSQL.slides.html index.html
